@@ -6,10 +6,12 @@ ionic serve
 
 ## Live on phone( connnect ios or android phone to dev computer)
 ```javascript
-iOS: ionic cap run ios -l --external 
+<b>iOS<\b>:
+ionic cap run ios -l --external 
 ```
 ```javascript
 Android: ionic cap run android -l --external
 ````
+```javascript
 web: ioninc serve 
-
+```
