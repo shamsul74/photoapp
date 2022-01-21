@@ -1,4 +1,7 @@
 # Android
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'run'
 - task: AndroidSigning@3
   inputs:
     apkFiles: '**/*.apk'
